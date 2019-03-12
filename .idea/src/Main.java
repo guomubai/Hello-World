@@ -13,6 +13,10 @@ public class Main {
 
         System.out.println("My car License Plate: " + myCar.licencePlate);
         System.out.println("Sally's License Plate: " + sallyCar.licencePlate);
+
+        System.out.println(myCar.paintColor.toString());
+        myCar.changePaintColor(Color.RED);
+        System.out.println(myCar.paintColor.toString());
     }
 
 
