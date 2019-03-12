@@ -14,6 +14,8 @@ public class Car {
     Color paintColor;
     boolean areTailLightsWorking;
 
+    //Making a new constructor below
+
     public Car (double inputaAverageMPG,
                 String inputLicensePlate,
                 Color inputPaintColor,
@@ -22,5 +24,9 @@ public class Car {
         this.licencePlate = inputLicensePlate;
         this.paintColor = inputPaintColor;
         this.areTailLightsWorking = inputAreTailLightsWorking;
+    }
+
+    public void changePaintColor (Color newPaintColor) {
+        this.paintColor = newPaintColor;
     }
 }
